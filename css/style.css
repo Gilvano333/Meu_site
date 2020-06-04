@@ -1,0 +1,59 @@
+body {
+	background: gray url(../img/fundo1.jpeg);
+	font: 12px Gill Sans Extrabold, sans-serif;
+}
+
+#container {
+	width: 1080px;
+	margin: 0 auto; 
+}
+
+a:link, a:active, a:visited {
+	color: #f71406;
+	text-decoration: none;/*Retirar o link */
+}
+
+a:hover {
+	color: #06f7ae;
+}
+
+/* Logo*/
+
+
+
+
+/* Barra de Navegação */
+
+/* Altura da Barra de navegação */
+header {
+	padding: 15px 0;
+	height: 55px;
+}
+
+/* formata o ul */
+nav ul {
+	list-style: none;/* retirar os pontoa*/
+	margin: 20px;
+	float: right;
+	/*border: 1px solid red;*/
+}
+
+/* formata o li */
+nav ul li {
+	float: left;/*jogar o li para a esquerda*/
+	/*border: 1px solid blue;*/
+}
+
+/* formata o a:link*/
+nav ul li a:link {
+	display: block;
+	margin-right: 25px;
+	padding-bottom: 3px;
+	text-transform: uppercase;/*transfomar a letra em mauscula*/
+	/*border: 1px solid green;*/
+}
+
+/*formata o a:hover*/
+ nav ul li a:hover{
+	border-bottom: 1px solid #535858;
+}
