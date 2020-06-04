@@ -1,6 +1,6 @@
 body {
 	background: gray url(../img/fundo1.jpeg);
-	font: 12px Gill Sans Extrabold, sans-serif;
+	font: 8px Gill Sans Extrabold, sans-serif;
 }
 
 #container {
@@ -9,12 +9,12 @@ body {
 }
 
 a:link, a:active, a:visited {
-	color: #f71406;
+	color: #fff;
 	text-decoration: none;/*Retirar o link */
 }
 
 a:hover {
-	color: #06f7ae;
+	color: #0B3B17;
 }
 
 /* Logo*/
@@ -26,15 +26,18 @@ a:hover {
 
 /* Altura da Barra de navegação */
 header {
+	background-color: #000000;
 	padding: 15px 0;
-	height: 55px;
+	height: 50px;
+
+
 }
 
 /* formata o ul */
 nav ul {
 	list-style: none;/* retirar os pontoa*/
-	margin: 20px;
-	float: right;
+	margin: 15px;
+	float: left;
 	/*border: 1px solid red;*/
 }
 
@@ -47,7 +50,7 @@ nav ul li {
 /* formata o a:link*/
 nav ul li a:link {
 	display: block;
-	margin-right: 25px;
+	margin-right: 27px;
 	padding-bottom: 3px;
 	text-transform: uppercase;/*transfomar a letra em mauscula*/
 	/*border: 1px solid green;*/
@@ -56,4 +59,38 @@ nav ul li a:link {
 /*formata o a:hover*/
  nav ul li a:hover{
 	border-bottom: 1px solid #535858;
+}
+
+
+/* Principal */
+
+#principal {
+	width: 745px;
+	float: left;
+}
+
+aside {
+	width: 327px;
+	background: black;
+	float: right;
+}
+
+#conteudo {
+	background: blue;
+	padding: 8px;
+	/*margin: 5px;*/
+}
+
+#bio {
+
+}
+
+
+
+.modifir {
+	color: blue;
+}
+
+footer {
+	clear: both;
 }
