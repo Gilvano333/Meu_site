@@ -1,11 +1,14 @@
 body {
-	background: gray url(../img/fundo1.jpeg);
+	background: gray url(../img/texture.jpg);
+	background-color: rgba(10,23,55,0.8);
 	font: 8px Gill Sans Extrabold, sans-serif;
 }
+
 
 #container {
 	width: 1080px;
 	margin: 0 auto; 
+
 }
 
 a:link, a:active, a:visited {
@@ -29,6 +32,7 @@ header {
 	background-color: #000000;
 	padding: 15px 0;
 	height: 50px;
+	border-radius: 18px;
 
 
 }
@@ -64,33 +68,91 @@ nav ul li a:link {
 
 /* Principal */
 
-#principal {
-	width: 745px;
-	float: left;
-}
-
+ 
 aside {
 	width: 327px;
 	background: black;
 	float: right;
+	padding-bottom: 30px;
+	margin-top: 3px;
+	border-radius: 18px;
+
 }
 
 #conteudo {
-	background: blue;
+	width: 710px;
+	float: left;
+	background: white;
 	padding: 8px;
 	/*margin: 5px;*/
+	margin-top: 3px;
+	border-radius: 18px;
+	
+
 }
 
-#bio {
+section#bio {
+	padding: 5px 25px 5px 25px;
+	/*margin: auto;*/
+	border-radius: 18px;
+	background: yellow;
+	font-size: 10px;
+}
+
+h1#video {
+	color: red;
+	padding-left: 15px;
+}
+
+#paragrafo-lateral {
+	/*margin-top: 3px;*/
+	color: white;
+	font-size: 12px;
+	padding: 0px 15px 0px 15px;
+}
+
+#area-lateral2 {
+	/*background: green;*/
+	margin-bottom: 7px;
+	/*border: 1px solid red;*/
+}
+
+#area-lateral1 {
+	/*background: green;*/
+	margin-top: 7px;
+	border: 1px solid red;
+}
+
+#foto1 {
+	float: right;
+	margin-top: 15px;
+	margin-right: 30px;
+}
+
+#foto2 {
+	float: left;
+	margin-top: 15px;
+	margin-left: 30px;
+	/*border-radius: 12px;*/
 
 }
 
 
 
-.modifir {
-	color: blue;
-}
 
 footer {
 	clear: both;
+	padding: 20px 0 30px 0;
+	text-align: center;
+	background: #000;
+	border-radius: 12px;
 }
+
+footer>p a {
+	padding: 2px 10px;
+}
+
+#rada {
+	color: red;
+}
+
