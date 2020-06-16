@@ -191,6 +191,45 @@ h1#docu0 {
 	border-radius: 12px;
 }
 
+/* Formatação de Formulários */
+
+
+#fale {
+	background: white;
+	padding-left: 15px;
+	border-radius: 12px;
+}
+label {
+	background: #565656;
+	border-radius: 12px;
+	padding-left: 3px;
+	text-transform: uppercase;
+	display: block;
+	cursor: pointer;
+}
+
+input {
+	padding: 5px;
+	font-size: 1.0em;
+	background-color: #fff;
+	border-radius: 12px;
+}
+
+input.submit {
+	width: 80px;
+	color: #fff;
+	background-color: #b10333;
+	border: 2px solid #870529;
+}
+
+form  {
+	padding: 7px;
+	background: #000000;
+	border-radius: 12px;
+}
+
+
+
 
 
 
